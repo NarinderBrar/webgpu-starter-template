@@ -1,0 +1,30 @@
+{
+  "name": "webgpu_starter_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts ."
+  },
+  "author": "narinder",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "@webgpu/types": "^0.1.38",
+    "eslint": "^8.46.0",
+    "eslint-plugin-autofix": "^1.1.0",
+    "gl-matrix": "^3.4.3",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "3.0.0",
+    "ts-loader": "^9.4.4",
+    "ts-shader-loader": "^1.0.6",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
